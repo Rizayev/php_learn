@@ -12,4 +12,7 @@ namespace book;
 
 interface iBook {
 
+    public function getName();
+    public function setName();
+    public function getId();
 }
