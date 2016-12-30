@@ -15,4 +15,9 @@ interface iBook {
     public function getName();
     public function setName();
     public function getId();
+    public function getType();
+    public function getAuthor();
+    public function getYear();
+    public function getPage();
+    public function getCondition();
 }
